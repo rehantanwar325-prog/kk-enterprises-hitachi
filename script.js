@@ -1,17 +1,19 @@
 /**
  * ============================================================================
- * K K ENTERPRISES ROADLINES & LOGISTICS - ULTRA PREMIUM SCRIPT
- * Sikar, Rajasthan • Goods Transport & Truck Booking
+ * K K ENTERPRISES - HITACHI & DAIKIN AC SHOWROOM
+ * Hitachi Ganpati Tower, Bajaj Road, Sikar, Rajasthan
+ * Authorized Air Conditioning Sales, Certified Installation & Service
  * ============================================================================
  */
 
 // Central Business Configuration
 const BUSINESS_CONFIG = {
   name: "K K Enterprises",
+  tagline: "Hitachi & Daikin AC Showroom",
   phoneDisplay: "+91 98290 12345",
   phoneNumber: "+919829012345",
   whatsappNumber: "919829012345",
-  email: "info@kkenterpriseslogistics.com",
+  email: "contact@kkenterprises-sikar.com",
   address: "Hitachi Ganpati Tower, Bajaj Road / Station Road, Sikar, Rajasthan - 332001",
   gstin: "08AABCK1234F1ZP"
 };
@@ -19,279 +21,230 @@ const BUSINESS_CONFIG = {
 // Bilingual Translation Dictionary (English / Hindi)
 const I18N_DICT = {
   en: {
-    top_live_status: "DISPATCH TERMINAL ACTIVE",
-    top_office_location: "Sikar Hub: Hitachi Ganpati Tower, Bajaj Road",
-    top_helpline: "24x7 Helpline:",
-    header_tagline: "ROADLINES & GOODS FREIGHT • SIKAR HUB",
-    header_call_sub: "BOOK TRUCK / CALL NOW",
-    header_quote_btn: "Get Freight Quote",
+    top_live_status: "SHOWROOM OPEN • BAJAJ ROAD",
+    top_office_location: "Hitachi Ganpati Tower, Bajaj Road, Sikar",
+    top_helpline: "Showroom Desk:",
+    header_tagline: "HITACHI & DAIKIN AC SHOWROOM • BAJAJ ROAD, SIKAR",
+    header_call_sub: "TALK TO SHOWROOM",
+    header_quote_btn: "Get AC Price Quote",
     nav_home: "Home",
-    nav_calc: "Rate Calculator",
-    nav_track: "⚡ Track Bilty",
-    nav_services: "Services",
-    nav_routes: "Routes Covered",
-    nav_fleet: "Our Fleet",
-    nav_routes_fleet: "Routes & Fleet",
+    nav_products: "AC Showroom",
+    nav_calc: "AC Tonnage Guide",
+    nav_services: "Our Services",
     nav_why: "Why Choose Us",
     nav_about: "About Us",
-    nav_contact: "Contact & Map",
-    hero_pill: "TIER-1 GOODS TRANSPORT & ROADLINES • SIKAR HUB",
-    hero_title: "Safe, Fast & Timely <br><span class=\"highlight-text\">Goods Transport</span> Across Bajaj Road & Sikar City",
-    hero_description: "<strong>K K Enterprises Roadlines</strong> delivers dependable freight forwarding, Full Truck Load (FTL), Part Load (PTL), and secure godown warehousing. Centered at Hitachi Ganpati Tower, Sikar, directly linking Bajaj Road, Station Road, Taparia Bagechi, Piprali Road, Nawalgarh Road, and Sikar City.",
-    hero_btn_calc: "Calculate Rate & Distance",
-    hero_btn_call: "Call Transport Desk",
-    hero_btn_track: "Track Bilty Status",
-    hero_trust_1: "100% Goods Transit Safety",
-    hero_trust_2: "Daily Express Dispatches",
-    hero_trust_3: "Bilty & GST Invoice Ready",
-    hero_card_title: "Bajaj Road Sikar Express Departures",
-    hero_card_status: "High Frequency",
-    hero_direct_booking: "Direct Fleet Operator — Zero Middleman Brokerage",
-    stat_1_title: "Years of Operations",
-    stat_1_desc: "Serving Shekhawati commerce",
-    stat_2_title: "Tonnes Handled",
-    stat_2_desc: "Zero loss safety record",
-    stat_3_title: "Connected Cities",
-    stat_3_desc: "100% Bajaj Road & Sikar City Coverage",
-    stat_4_title: "On-Time Transit Rate",
-    stat_4_desc: "Direct point-to-point lines",
-    calc_pill: "INTERACTIVE FREIGHT CALCULATOR",
-    calc_title: "Select Route & Estimate Freight Transit",
-    calc_subtitle: "Calculate road distance, estimated highway transit hours, and book the ideal commercial truck instantly with guaranteed direct operator rates.",
-    calc_lbl_origin: "Origin Point (Departure Hub)",
-    calc_lbl_dest: "Destination City / Trade Hub",
-    calc_lbl_truck: "Select Vehicle / Load Category",
-    calc_lbl_dist: "Highway Distance",
-    calc_lbl_time: "Estimated Transit",
-    calc_lbl_matched: "Selected Fleet Vehicle:",
-    calc_btn_lock: "Lock Guaranteed Rate on WhatsApp",
-    calc_guarantee: "⚡ Instant quotation response directly from Sikar transport manager",
-    track_pill: "BILTY / LR DISPATCH TRACKER",
-    track_title: "Track Consignment Transit Milestones",
-    track_subtitle: "Enter your 6-digit Consignment Note (LR/Bilty) number to monitor the progress of your dispatch.",
-    track_btn: "Check Status",
-    step_1_title: "Booking & Bilty Generated",
-    step_2_title: "Loaded & Weighed",
-    step_3_title: "In-Transit on Highway Corridor",
-    step_4_title: "Destination Hub Arrival & Delivery",
-    quote_pill: "INSTANT FREIGHT ESTIMATOR",
-    quote_title: "Get Truck Booking Quote & WhatsApp Confirmation",
-    quote_subtitle: "Fill your pickup and delivery points below. We generate an instant booking requisition that sends directly to our transport desk on WhatsApp or phone.",
-    form_pickup: "Pickup City / Location",
-    form_drop: "Delivery City / Destination",
-    form_service: "Booking Service Type",
-    form_goods: "Goods / Material Description",
-    form_weight: "Estimated Weight / Volume",
+    nav_contact: "Contact & Location",
+    hero_pill: "OFFICIAL HITACHI & DAIKIN SHOWROOM • BAJAJ ROAD, SIKAR",
+    hero_title: "Hitachi & Daikin ACs & <br><span class=\"highlight-text\">Express Delivery on Bajaj Road</span> & Sikar City",
+    hero_description: "<strong>K K Enterprises</strong> is Sikar's premier authorized showroom for <strong>Hitachi and Daikin Air Conditioners</strong>. Located at Hitachi Ganpati Tower, Bajaj Road, we offer 1.0, 1.5, and 2.0 Ton Inverter Split ACs, Window ACs, commercial cassette units, official company warranties, and certified doorstep installation across Sikar.",
+    hero_btn_calc: "Explore AC Models & Prices",
+    hero_btn_call: "Call Showroom Desk",
+    hero_trust_1: "100% Brand Warranty",
+    hero_trust_2: "Same-Day Doorstep Fitting",
+    hero_trust_3: "Best Dealer Price in Sikar",
+    hero_card_title: "Bajaj Road Showroom Active",
+    hero_card_status: "Ready Stock",
+    hero_direct_booking: "Direct Authorized Dealer — Zero Middleman Brokerage",
+    stat_1_title: "12+ Years of Trust",
+    stat_1_desc: "Serving Shekhawati homes",
+    stat_2_title: "10,000+ ACs Installed",
+    stat_2_desc: "Satisfied customers",
+    stat_3_title: "Bajaj Road Central Store",
+    stat_3_desc: "Hitachi Ganpati Tower Sikar",
+    stat_4_title: "100% Genuine Products",
+    stat_4_desc: "Brand invoice & warranty",
+    calc_pill: "SMART AC TONNAGE SELECTOR",
+    calc_title: "Find the Perfect AC for Your Room & Calculate Savings",
+    calc_subtitle: "Select your room dimensions and cooling requirements below. Our showroom tool calculates the exact recommended tonnage (1.0, 1.5, or 2.0 Ton) and energy savings with direct availability at our Ganpati Tower, Bajaj Road showroom.",
+    calc_lbl_origin: "Showroom Store (Bajaj Road Sikar)",
+    calc_lbl_dest: "Select Room Size / Area",
+    calc_lbl_truck: "Select AC Category / Model",
+    calc_lbl_dist: "Cooling Capacity",
+    calc_lbl_time: "Bajaj Road Delivery",
+    calc_lbl_matched: "Selected Model & Brand:",
+    calc_btn_lock: "Get Best Price for This AC on WhatsApp",
+    calc_guarantee: "⚡ Instant quotation response directly from Bajaj Road showroom team",
+    quote_pill: "SHOWROOM BEST PRICE INQUIRY",
+    quote_title: "Get AC Price Quote & WhatsApp Confirmation",
+    quote_subtitle: "Fill your requirements below. We generate an instant quotation and dealer discount that connects directly to our showroom sales desk on WhatsApp or phone.",
+    form_drop: "Delivery Locality / Address in Sikar",
+    form_service: "Required AC Type",
+    form_goods: "Brand Preference",
+    form_weight: "Number of Units",
     form_phone: "Your Mobile Number",
-    form_name: "Your Name or Business / Firm Name",
-    form_notes: "Special Instructions / Preferred Date",
-    form_submit_wa: "Send Requisition via WhatsApp",
-    form_submit_call: "Call Transport Dispatcher Immediately",
-    services_pill: "COMPREHENSIVE LOGISTICS SOLUTIONS",
-    services_title: "Freight & Roadlines Services We Provide",
-    services_subtitle: "From full 32-ton truckloads to single parcel consignments, K K Enterprises handles goods transport with complete reliability and speed.",
-    routes_pill: "EXPANSIVE NETWORK",
-    routes_title: "Areas & Daily Routes Covered from Sikar",
-    routes_subtitle: "Strategically based at Ganpati Tower, Sikar, connecting Shekhawati directly to prime national highways, mega highways, and key commercial freight hubs.",
-    routes_custom_title: "Need transport for a specific city or town not listed above?",
-    routes_custom_sub: "We arrange dedicated trucks to any destination across India from Sikar.",
-    routes_custom_btn: "Ask Route Availability: +91 98290 12345",
-    fleet_pill: "MODERN COMMERCIAL VEHICLES",
-    fleet_title: "Our Truck Fleet & Loading Capacity",
-    fleet_subtitle: "From compact city pickup trucks to heavy multi-axle 32-foot closed containers, we match the exact truck for your cargo weight and volume.",
-    about_pill: "ABOUT K K ENTERPRISES",
-    about_title: "Built on Commercial Integrity & Roadway Excellence",
-    about_lead: "Established at <strong>Hitachi Ganpati Tower, Bajaj Road, Sikar</strong>, K K Enterprises has grown to become Shekhawati's most dependable goods transport and roadlines partner.",
-    about_body: "We understand that for shopkeepers, grain traders, industrial units, and builders, a delay in transport means a direct loss of business. That is why we operate with a strict no-nonsense philosophy: verified trucks, transparent freight calculation, guaranteed bilty receipts, and hands-on driver supervision.",
-    why_pill: "OUR COMMITMENTS",
-    why_title: "Why Businesses Trust K K Enterprises",
-    why_subtitle: "No empty claims. Here are the concrete service guarantees that make traders and corporations choose us for repeat transport bookings.",
-    reviews_pill: "TRADER REVIEWS",
-    reviews_title: "What Sikar Merchants Say",
-    reviews_subtitle: "Read feedback from business owners and distributors who rely on our daily freight dispatch.",
+    form_name: "Your Name",
+    form_notes: "Installation Requirements / Special Instructions",
+    form_submit_wa: "Get Best Showroom Quote on WhatsApp",
+    form_submit_call: "Call Showroom Desk Directly",
+    services_pill: "AUTHORIZED SHOWROOM SERVICES",
+    services_title: "AC Sales, Installation & Servicing in Sikar",
+    services_subtitle: "From premium 5-star inverter split ACs for your home to multi-split and cassette units for commercial spaces, K K Enterprises provides complete cooling solutions.",
+    routes_pill: "BAJAJ ROAD & SIKAR COVERAGE",
+    routes_title: "Express AC Delivery Across Sikar Localities",
+    routes_subtitle: "Conveniently based at Hitachi Ganpati Tower on Bajaj Road, dispatching technician vans and delivery vehicles across Sikar City within minutes.",
+    routes_custom_title: "Need AC delivery or corporate installation at another locality in Sikar?",
+    routes_custom_sub: "We supply and install Hitachi & Daikin air conditioners across all residential and commercial zones in Sikar.",
+    routes_custom_btn: "Ask Showroom Availability: +91 98290 12345",
+    about_pill: "ABOUT OUR SHOWROOM",
+    about_title: "Sikar's Trusted Destination for Hitachi & Daikin ACs",
+    about_lead: "Located centrally at <strong>Hitachi Ganpati Tower, Bajaj Road, Sikar</strong>, K K Enterprises is the leading authorized retail showroom for premium air conditioning systems in Shekhawati.",
+    about_body: "We operate with a direct manufacturer-dealer commitment: 100% genuine factory-packed air conditioners, direct brand warranties, transparent dealer pricing with no hidden charges, and expert doorstep delivery and certified technician installation across Bajaj Road and Sikar City.",
+    why_pill: "OUR PROMISES",
+    why_title: "Why Sikar Chooses K K Enterprises Showroom",
+    why_subtitle: "Experience guaranteed peace of mind with authorized company sales, transparent pricing, and dependable local service.",
+    reviews_pill: "CUSTOMER REVIEWS",
+    reviews_title: "What Sikar Residents & Businesses Say",
+    reviews_subtitle: "Read real feedback from homeowners, doctors, and merchants who purchased their ACs from our showroom.",
     faq_pill: "FREQUENT QUESTIONS",
-    faq_title: "Everything You Need to Know Before Booking",
-    contact_pill: "GET IN TOUCH",
-    contact_title: "Visit Our Sikar Transport Office",
-    contact_intro: "Have questions regarding freight rates, route availability, or godown storage? Reach out to our transport desk or visit us directly."
+    faq_title: "Everything You Need to Know Before Buying",
+    contact_pill: "VISIT OUR STORE",
+    contact_title: "Visit Our Bajaj Road AC Showroom",
+    contact_intro: "Have questions regarding AC prices, tonnage recommendation, installation, or EMI schemes? Visit our showroom or give us a call."
   },
   hi: {
-    top_live_status: "डिस्पैच टर्मिनल सक्रिय है",
-    top_office_location: "सीकर ऑफिस: हिताची गणपति टॉवर, बजाज रोड",
-    top_helpline: "24x7 हेल्पलाइन:",
-    header_tagline: "रोडलाइन्स एवं माल परिवहन • सीकर हब",
-    header_call_sub: "ट्रक बुकिंग / अभी कॉल करें",
-    header_quote_btn: "भाड़ा रेट जानें",
+    top_live_status: "शोरूम खुला है • बजाज रोड सीकर",
+    top_office_location: "हिताची गणपति टॉवर, बजाज रोड, सीकर",
+    top_helpline: "शोरूम डेस्क:",
+    header_tagline: "हिताची एवं डाइकिन एसी शोरूम • बजाज रोड, सीकर",
+    header_call_sub: "शोरूम से बात करें",
+    header_quote_btn: "एसी रेट कोटेशन लें",
     nav_home: "होम",
-    nav_calc: "भाड़ा कैलकुलेटर",
-    nav_track: "⚡ बिल्टी ट्रैक करें",
+    nav_products: "एसी मॉडल्स",
+    nav_calc: "कमरे के अनुसार एसी",
     nav_services: "हमारी सेवाएँ",
-    nav_routes: "प्रमुख रूट्स",
-    nav_fleet: "हमारे ट्रक / फ्लीट",
-    nav_routes_fleet: "रूट्स व गाड़ियाँ",
     nav_why: "हमें क्यों चुनें",
-    nav_about: "हमारे बारे में",
+    nav_about: "शोरूम के बारे में",
     nav_contact: "संपर्क एवं पता",
-    hero_pill: "शीर्ष माल परिवहन एवं रोडलाइन्स • सीकर हब",
-    hero_title: "सुरक्षित, तेज एवं समय पर <br><span class=\"highlight-text\">माल परिवहन</span> राजस्थान व पूरे भारत में",
-    hero_description: "<strong>के के एंटरप्राइजेज रोडलाइन्स</strong> सीकर से फुल ट्रक लोड (FTL), पार्ट लोड पार्सल (PTL), और सुरक्षित गोदाम वेयरहाउसिंग की विश्वसनीय सेवा प्रदान करता है। गणपति टॉवर सीकर से जयपुर, दिल्ली NCR, बीकानेर, गुजरात एवं पूरे भारत में सीधी गाड़ियाँ।",
-    hero_btn_calc: "भाड़ा व दूरी कैलकुलेटर",
-    hero_btn_call: "सीधा फोन करें",
-    hero_btn_track: "बिल्टी स्टेटस देखें",
-    hero_trust_1: "100% माल सुरक्षा व बीमा सहायता",
-    hero_trust_2: "रोजाना एक्सप्रेस रवानगी",
-    hero_trust_3: "पक्की बिल्टी व GST बिल उपलब्ध",
-    hero_card_title: "रोजाना सीधी रवानगी रूट्स",
-    hero_card_status: "नियमित सेवा",
-    hero_direct_booking: "सीधी ट्रांसपोर्टर बुकिंग — कोई दलाल/बिचौलिया कमीशन नहीं",
-    stat_1_title: "वर्षों का अटूट विश्वास",
-    stat_1_desc: "शेखावाटी व्यापार की सेवा में",
-    stat_2_title: "टन माल सुरक्षित पहुँचाया",
-    stat_2_desc: "शून्य नुकसान का रिकॉर्ड",
-    stat_3_title: "जुड़े हुए शहर व मार्ग",
-    stat_3_desc: "राजस्थान व पूरे भारत का नेटवर्क",
-    stat_4_title: "समय पर डिलीवरी दर",
-    stat_4_desc: "सीधी हाईवे एक्सप्रेस लाइन",
-    calc_pill: "इंटरैक्टिव भाड़ा कैलकुलेटर",
-    calc_title: "रूट चुनें और हाईवे दूरी व समय देखें",
-    calc_subtitle: "सीकर से अपने गंतव्य की दूरी, समय और गाड़ी का प्रकार चुनें और तुरंत सही रेट प्राप्त करें।",
-    calc_lbl_origin: "रवानगी स्थान (सीकर हब)",
-    calc_lbl_dest: "गंतव्य शहर / ट्रांसपोर्ट नगर",
-    calc_lbl_truck: "गाड़ी या भार का प्रकार चुनें",
-    calc_lbl_dist: "हाईवे सड़क दूरी",
-    calc_lbl_time: "अनुमानित डिलीवरी समय",
-    calc_lbl_matched: "चुनी गई गाड़ी:",
-    calc_btn_lock: "व्हाट्सएप पर पक्की रेट प्राप्त करें",
-    calc_guarantee: "⚡ सीकर ट्रांसपोर्ट मैनेजर से 5 मिनट में सटीक कोटेशन",
-    track_pill: "बिल्टी / LR ट्रैकर सिम्युलेटर",
-    track_title: "अपनी गाड़ी व माल की लोकेशन देखें",
-    track_subtitle: "अपनी बिल्टी संख्या (LR No.) दर्ज करके माल के रास्ते की स्थिति देखें।",
-    track_btn: "स्टेटस देखें",
-    step_1_title: "बुकिंग व बिल्टी तैयार",
-    step_2_title: "माल लोड व वजन सत्यापित",
-    step_3_title: "हाईवे पर गाड़ी रवाना (इन-ट्रांजिट)",
-    step_4_title: "गंतव्य हब पर आगमन व डिलीवरी",
-    quote_pill: "तुरंत भाड़ा कोटेशन",
-    quote_title: "गाड़ी बुकिंग कोटेशन व व्हाट्सएप पुष्टि",
-    quote_subtitle: "नीचे अपना विवरण भरें। तुरंत हमारे ट्रांसपोर्ट मैनेजर को व्हाट्सएप पर मैसेज जाएगा।",
-    form_pickup: "माल उठाने का स्थान (पिकअप)",
-    form_drop: "माल पहुँचाने का शहर (ड्रॉप)",
-    form_service: "बुकिंग का प्रकार",
-    form_goods: "माल/सामान का विवरण",
-    form_weight: "वजन या मात्रा",
+    hero_pill: "अधिकृत हिताची एवं डाइकिन एसी शोरूम • बजाज रोड, सीकर",
+    hero_title: "हिताची एवं डाइकिन एसी <br><span class=\"highlight-text\">बजाज रोड व सीकर में</span> एक्सप्रेस डिलीवरी व फिटिंग",
+    hero_description: "<strong>के के एंटरप्राइजेज</strong> हिताची एवं डाइकिन एसी का सीकर का अधिकृत शोरूम है। हिताची गणपति टॉवर, बजाज रोड पर स्थित, हमारे यहाँ 1.0, 1.5 व 2.0 टन इन्वर्टर स्प्लिट, विंडो एवं कैसेट एसी, कंपनी वारंटी और उसी दिन फिटिंग की सुविधा उपलब्ध है।",
+    hero_btn_calc: "एसी मॉडल्स व रेट देखें",
+    hero_btn_call: "शोरूम पर कॉल करें",
+    hero_trust_1: "100% ओरिजिनल कंपनी वारंटी",
+    hero_trust_2: "उसी दिन होम डिलीवरी व फिटिंग",
+    hero_trust_3: "सीकर में सबसे कम डीलर रेट",
+    hero_card_title: "बजाज रोड शोरूम सक्रिय",
+    hero_card_status: "रेडी स्टॉक",
+    hero_direct_booking: "सीधा अधिकृत डीलर — कोई बिचौलिया नहीं, बेस्ट रेट",
+    stat_1_title: "12+ वर्षों का विश्वास",
+    stat_1_desc: "शेखावाटी में सेवा",
+    stat_2_title: "10,000+ एसी इंस्टॉल्ड",
+    stat_2_desc: "संतुष्ट ग्राहक",
+    stat_3_title: "बजाज रोड सेंट्रल स्टोर",
+    stat_3_desc: "हिताची गणपति टॉवर सीकर",
+    stat_4_title: "100% असली प्रोडक्ट्स",
+    stat_4_desc: "पक्का बिल व वारंटी",
+    calc_pill: "कमरे के अनुसार सही एसी चुनें",
+    calc_title: "अपने कमरे के लिए सही एसी व बिजली बचत जानें",
+    calc_subtitle: "नीचे अपने कमरे का साइज चुनें। हमारा टूल आपके लिए सही टन (1.0, 1.5 या 2.0 टन) और बिजली बचत की गणना करेगा, जो गणपति टॉवर, बजाज रोड स्टोर पर उपलब्ध है।",
+    calc_lbl_origin: "शोरूम स्टोर (बजाज रोड सीकर)",
+    calc_lbl_dest: "कमरे का साइज / एरिया चुनें",
+    calc_lbl_truck: "एसी मॉडल व ब्रांड चुनें",
+    calc_lbl_dist: "कूलिंग क्षमता",
+    calc_lbl_time: "बजाज रोड डिलीवरी",
+    calc_lbl_matched: "चुना हुआ एसी मॉडल:",
+    calc_btn_lock: "व्हाट्सएप पर इस एसी की बेस्ट रेट जानें",
+    calc_guarantee: "⚡ बजाज रोड शोरूम टीम से 5 मिनट में तुरंत रेट प्राप्त करें",
+    quote_pill: "शोरूम बेस्ट रेट पूछताछ",
+    quote_title: "एसी रेट कोटेशन व व्हाट्सएप पर जानकारी",
+    quote_subtitle: "नीचे अपनी आवश्यकता भरें। तुरंत हमारे शोरूम सेल्स डेस्क को व्हाट्सएप पर संदेश जाएगा और आपको सबसे कम रेट मिलेगी।",
+    form_drop: "सीकर में डिलीवरी का पता / इलाका",
+    form_service: "एसी का प्रकार",
+    form_goods: "पसंदीदा ब्रांड",
+    form_weight: "कितने एसी चाहिए (संख्या)",
     form_phone: "आपका मोबाइल नंबर",
-    form_name: "आपका नाम या फर्म/दुकान का नाम",
-    form_notes: "अतिरिक्त निर्देश / तारीख",
-    form_submit_wa: "व्हाट्सएप पर कोटेशन भेजें",
-    form_submit_call: "तुरंत ट्रांसपोर्टर को कॉल करें",
-    services_pill: "व्यापक ट्रांसपोर्ट सेवाएँ",
-    services_title: "हमारी प्रमुख माल परिवहन सेवाएँ",
-    services_subtitle: "32-टन भारी कंटेनर से लेकर छोटे पार्सल तक, के के एंटरप्राइजेज पूरी जिम्मेदारी से माल पहुँचाता है।",
-    routes_pill: "विशाल नेटवर्क",
-    routes_title: "सीकर से रोजाना चलने वाली गाड़ियाँ",
-    routes_subtitle: "गणपति टॉवर सीकर से नेशनल हाईवे 52 व मुख्य राजमार्गों द्वारा सीधा जुड़ाव।",
-    routes_custom_title: "क्या आपको किसी अन्य शहर के लिए गाड़ी चाहिए?",
-    routes_custom_sub: "हम सीकर से पूरे भारत के किसी भी शहर के लिए सीधी गाड़ी उपलब्ध कराते हैं।",
-    routes_custom_btn: "रूट उपलब्धता पूछें: +91 98290 12345",
-    fleet_pill: "आधुनिक कमर्शियल गाड़ियाँ",
-    fleet_title: "हमारी ट्रक फ्लीट व भार क्षमता",
-    fleet_subtitle: "टाटा 407, आयशर 14-19 फीट, 32 फीट बंद कंटेनर और 10/12 चक्का टॉरस ट्रक।",
-    about_pill: "के के एंटरप्राइजेज के बारे में",
-    about_title: "ईमानदारी और विश्वसनीयता की ठोस नींव",
-    about_lead: "<strong>हिताची गणपति टॉवर, बजाज रोड, सीकर</strong> में स्थापित, के के एंटरप्राइजेज शेखावाटी का भरोसेमंद ट्रांसपोर्टर है।",
-    about_body: "हम जानते हैं कि व्यापारियों और उद्योगपतियों के लिए गाड़ी की देरी का मतलब व्यापार का नुकसान है। इसलिए हम समयबद्ध रवानगी, पक्की बिल्टी और उचित भाड़े पर काम करते हैं।",
-    why_pill: "हमारी विशेषताएँ",
-    why_title: "व्यापारी के के एंटरप्राइजेज पर क्यों भरोसा करते हैं",
-    why_subtitle: "कोई झूठे वादे नहीं। सीधे ट्रांसपोर्टर से सेवा, सुरक्षित माल और समय पर डिलीवरी।",
-    reviews_pill: "व्यापारियों की राय",
-    reviews_title: "सीकर के व्यापारियों का अनुभव",
-    reviews_subtitle: "जानिए सीकर के व्यापारी और सप्लायर्स हमारे बारे में क्या कहते हैं।",
+    form_name: "आपका नाम",
+    form_notes: "फिटिंग संबंधी निर्देश / सवाल",
+    form_submit_wa: "व्हाट्सएप पर बेस्ट शोरूम रेट प्राप्त करें",
+    form_submit_call: "शोरूम डेस्क पर सीधा कॉल करें",
+    services_pill: "अधिकृत शोरूम सेवाएँ",
+    services_title: "सीकर में एसी बिक्री, इंस्टॉलेशन व सर्विसिंग",
+    services_subtitle: "घर के लिए 5-स्टार इन्वर्टर एसी से लेकर दुकानों व कोचिंग के लिए कैसेट एसी तक, के के एंटरप्राइजेज संपूर्ण कूलिंग समाधान प्रदान करता है।",
+    routes_pill: "बजाज रोड व सीकर कवरेज",
+    routes_title: "सीकर के प्रमुख इलाकों में एक्सप्रेस एसी डिलीवरी",
+    routes_subtitle: "बजाज रोड पर गणपति टॉवर से सीकर शहर के सभी इलाकों में कुछ ही मिनटों में एसी डिलीवरी व कुशल कारीगर।",
+    routes_custom_title: "क्या सीकर में किसी अन्य कॉलोनी या संस्थान में एसी लगवाना है?",
+    routes_custom_sub: "हम सीकर के सभी इलाकों में हिताची व डाइकिन एसी की आपूर्ति और प्रमाणित फिटिंग प्रदान करते हैं।",
+    routes_custom_btn: "शोरूम में पूछताछ करें: +91 98290 12345",
+    about_pill: "शोरूम के बारे में",
+    about_title: "हिताची एवं डाइकिन एसी का सीकर में सबसे भरोसेमंद नाम",
+    about_lead: "<strong>हिताची गणपति टॉवर, बजाज रोड, सीकर</strong> में स्थित, के के एंटरप्राइजेज शेखावाटी का अग्रणी अधिकृत एसी शोरूम है।",
+    about_body: "हम सीधे कंपनी डीलरशिप के साथ काम करते हैं: 100% ओरिजिनल फैक्ट्री पैक एसी, पक्की कंपनी वारंटी, सबसे कम डीलर रेट और बजाज रोड व सीकर शहर में उसी दिन कुशल तकनीशियन द्वारा फिटिंग।",
+    why_pill: "हमारे वादे",
+    why_title: "सीकर के लोग के के एंटरप्राइजेज क्यों चुनते हैं",
+    why_subtitle: "अधिकृत शोरूम से खरीदारी, पक्की कंपनी वारंटी और सीकर में भरोसेमंद लोकल सर्विस का अनुभव करें।",
+    reviews_pill: "ग्राहकों की राय",
+    reviews_title: "सीकर के निवासी व व्यापारी क्या कहते हैं",
+    reviews_subtitle: "जानिए उन ग्राहकों का अनुभव जिन्होंने हमारे बजाज रोड शोरूम से एसी खरीदा है।",
     faq_pill: "सामान्य प्रश्न",
-    faq_title: "बुकिंग से पहले आपके जरूरी सवाल",
-    contact_pill: "संपर्क करें",
-    contact_title: "हमारे सीकर ट्रांसपोर्ट ऑफिस पधारें",
-    contact_intro: "भाड़ा रेट, गाड़ी बुकिंग या गोदाम की जानकारी के लिए तुरंत फोन करें या ऑफिस आएं।"
+    faq_title: "एसी खरीदने से पहले आपके जरूरी सवाल",
+    contact_pill: "शोरूम पधारें",
+    contact_title: "हमारे बजाज रोड एसी शोरूम पधारें",
+    contact_intro: "एसी के रेट, सही टन, फिटिंग या 0% ईएमआई के बारे में कोई भी जानकारी के लिए सीधे शोरूम आएं या फोन करें।"
   }
 };
 
-// Route Database for Interactive Distance & Rate Calculator
-const ROUTE_DATA = {
+// AC Room Tonnage & Sizing Database for Interactive Calculator
+const AC_ROOM_DATA = {
   bajaj_road: {
-    title: "BAJAJ ROAD CENTRAL MARKET",
-    highway: "Ganpati Tower, Taparia Bagechi & Main Market",
-    dist: "0.5 - 1 KM",
-    distSub: "Immediate showroom neighborhood",
+    title: "RECOMMENDED: 1.5 TON INVERTER AC",
+    highway: "Ideal for 120 - 180 Sq. Ft. Master Bedrooms & Living Rooms",
+    dist: "1.5 Ton",
+    distSub: "5200 Watts cooling capacity • 5-Star power saver",
     time: "15 - 30 Mins",
-    timeSub: "Express local delivery & fitting"
+    timeSub: "Express doorstep delivery on Bajaj Road & Sikar"
   },
   station_road: {
-    title: "STATION ROAD & TAPARIA BAGECHI",
-    highway: "Station Road Link via Bajaj Road",
-    dist: "1 - 2 KM",
-    distSub: "Direct commercial connection",
-    time: "20 - 30 Mins",
-    timeSub: "Immediate dispatch from Ganpati Tower"
+    title: "RECOMMENDED: 1.0 TON INVERTER AC",
+    highway: "Ideal for Up to 120 Sq. Ft. Small Bedrooms & Study Rooms",
+    dist: "1.0 Ton",
+    distSub: "3500 Watts cooling capacity • Compact power saver",
+    time: "15 - 30 Mins",
+    timeSub: "Immediate delivery on Bajaj Road & Station Rd"
   },
   kalyan_circle: {
-    title: "KALYAN CIRCLE & COURT ROAD",
-    highway: "Main City Artery via Bajaj Road",
-    dist: "2 - 3 KM",
-    distSub: "Central Sikar administrative hub",
+    title: "RECOMMENDED: 2.0 TON INVERTER AC",
+    highway: "Ideal for 180 - 260 Sq. Ft. Large Living Halls & Drawing Rooms",
+    dist: "2.0 Ton",
+    distSub: "6200 Watts heavy cooling • Rapid temperature drop",
     time: "30 - 45 Mins",
-    timeSub: "Fast showroom vehicle"
+    timeSub: "Express delivery across Sikar City"
   },
   subhash_chowk: {
-    title: "SUBHASH CHOWK & FATEHPURI GATE",
-    highway: "Old City Bazaar Corridor",
-    dist: "2 - 3 KM",
-    distSub: "Dense commercial & residential bazaar",
-    time: "30 Mins",
-    timeSub: "Dedicated compact loader"
+    title: "RECOMMENDED: 2.5 TON+ / CASSETTE AC",
+    highway: "Ideal for 260+ Sq. Ft. Commercial Halls, Shops & Showrooms",
+    dist: "2.5 Ton+ / Cassette",
+    distSub: "360-Degree even airflow for wide commercial spaces",
+    time: "30 - 45 Mins",
+    timeSub: "Specialist technician installation support"
   },
   piprali_road: {
-    title: "PIPRALI ROAD COACHING HUB",
-    highway: "Via Kalyan Circle to Piprali Road",
-    dist: "4 - 5 KM",
-    distSub: "Coaching institutes, hostels & colonies",
+    title: "RECOMMENDED: MULTI-SPLIT / INVERTER SETUP",
+    highway: "Ideal for Coaching Centers, Hostels & Multiple Classrooms",
+    dist: "Multi-Split Inverter",
+    distSub: "Centralized energy efficiency & independent room cooling",
     time: "45 Mins - 1 Hour",
-    timeSub: "Priority AC delivery & installation"
+    timeSub: "Commercial project installation & site visit"
   },
   nawalgarh_road: {
-    title: "NAWALGARH ROAD & DEVIPURA",
-    highway: "Via Station Road to Nawalgarh Road",
-    dist: "3 - 5 KM",
-    distSub: "Major residential & college corridor",
-    time: "35 - 50 Mins",
-    timeSub: "Doorstep delivery van"
-  },
-  riico_palwas: {
-    title: "RIICO INDUSTRIAL AREA & PALWAS RD",
-    highway: "Industrial Express Corridor",
-    dist: "5 - 7 KM",
-    distSub: "Factories, workshops & commercial complexes",
-    time: "45 Mins - 1 Hour",
-    timeSub: "Heavy cooling equipment delivery"
-  },
-  fatehpur_road: {
-    title: "FATEHPUR ROAD BYPASS (SIKAR CITY)",
-    highway: "North City Corridor via Bajaj Road",
-    dist: "3 - 5 KM",
-    distSub: "Showrooms, hospitals & residential colonies",
-    time: "35 - 45 Mins",
-    timeSub: "Express same-day dispatch"
+    title: "RECOMMENDED: 1.5 - 2.0 TON HEAVY DUTY INVERTER",
+    highway: "Ideal for Top Floor, High Sunlight & Direct Heat Rooms",
+    dist: "1.5 - 2.0 Ton (52°C Tested)",
+    distSub: "Tropical heavy-duty compressor for extreme Sikar summers",
+    time: "30 - 45 Mins",
+    timeSub: "Doorstep delivery & copper pipe installation"
   }
 };
 
 let currentLanguage = "en";
-let currentSelectedVehicle = "Tata Ace / Loader (Express Doorstep)";
+let currentSelectedAC = "Hitachi 1.5 Ton 5-Star Inverter Split AC";
 
 document.addEventListener("DOMContentLoaded", () => {
   initLanguageSwitcher();
   initMobileMenu();
   initHeaderScrollEffect();
-  initFreightCalculator();
-  initBiltyTracker();
-  initFreightQuoteForm();
+  initACCalculator();
+  initACQuoteForm();
   initRouteTabs();
   initAddressCopy();
   initCurrentYear();
@@ -345,9 +298,9 @@ function initLanguageSwitcher() {
 }
 
 /**
- * 2. Interactive Freight Distance & Rate Estimator
+ * 2. Smart AC Tonnage & Room Cooling Calculator
  */
-function initFreightCalculator() {
+function initACCalculator() {
   const destSelect = document.getElementById("calcDestination");
   const truckChips = document.querySelectorAll(".truck-chip");
   const lockRateBtn = document.getElementById("btnLockRateWhatsApp");
@@ -362,7 +315,7 @@ function initFreightCalculator() {
 
   function updateMetrics() {
     const routeKey = destSelect ? destSelect.value : "bajaj_road";
-    const data = ROUTE_DATA[routeKey] || ROUTE_DATA.bajaj_road;
+    const data = AC_ROOM_DATA[routeKey] || AC_ROOM_DATA.bajaj_road;
 
     if (displayTitle) displayTitle.textContent = data.title;
     if (displayHighway) displayHighway.textContent = data.highway;
@@ -370,7 +323,7 @@ function initFreightCalculator() {
     if (displayDistSub) displayDistSub.textContent = data.distSub;
     if (displayTime) displayTime.textContent = data.time;
     if (displayTimeSub) displayTimeSub.textContent = data.timeSub;
-    if (displayVehicle) displayVehicle.textContent = currentSelectedVehicle;
+    if (displayVehicle) displayVehicle.textContent = currentSelectedAC;
   }
 
   if (destSelect) {
@@ -381,28 +334,28 @@ function initFreightCalculator() {
     chip.addEventListener("click", () => {
       truckChips.forEach(c => c.classList.remove("active"));
       chip.classList.add("active");
-      currentSelectedVehicle = chip.getAttribute("data-vehicle") || "Tata Ace / Loader (Express Doorstep)";
+      currentSelectedAC = chip.getAttribute("data-vehicle") || "Hitachi 1.5 Ton 5-Star Inverter Split AC";
       updateMetrics();
     });
   });
 
   if (lockRateBtn) {
     lockRateBtn.addEventListener("click", () => {
-      const routeText = destSelect ? destSelect.options[destSelect.selectedIndex].text : "Bajaj Road Central Market";
-      const dist = displayDist ? displayDist.textContent : "115 KM";
-      const time = displayTime ? displayTime.textContent : "3-4 Hours";
+      const roomOptionText = destSelect ? destSelect.options[destSelect.selectedIndex].text : "Master Bedroom (120-180 Sq. Ft.)";
+      const tonVal = displayDist ? displayDist.textContent : "1.5 Ton";
+      const deliveryTime = displayTime ? displayTime.textContent : "15 - 30 Mins";
 
       const msg = [
-        `🚚 *FREIGHT RATE ENQUIRY (CALCULATOR)*`,
-        `*K K Enterprises Roadlines, Sikar*`,
+        `❄️ *AC PRICE & SHOWROOM INQUIRY*`,
+        `*K K Enterprises - Hitachi & Daikin AC Showroom*`,
+        `*Hitachi Ganpati Tower, Bajaj Road, Sikar*`,
         `━━━━━━━━━━━━━━━━━━━━━━`,
-        `📍 *Pickup:* Sikar Hub (Ganpati Tower)`,
-        `🎯 *Destination:* ${routeText}`,
-        `🛣️ *Distance:* ${dist}`,
-        `⏱️ *Est. Transit:* ${time}`,
-        `🚛 *Vehicle Type:* ${currentSelectedVehicle}`,
+        `🏠 *Room / Area:* ${roomOptionText}`,
+        `❄️ *Recommended Capacity:* ${tonVal}`,
+        `✨ *Selected AC Model:* ${currentSelectedAC}`,
+        `⏱️ *Bajaj Road Delivery:* ${deliveryTime}`,
         `━━━━━━━━━━━━━━━━━━━━━━`,
-        `_Please provide best guaranteed freight rate & vehicle availability._`
+        `_Hello, please share your best showroom price, brand warranty, and installation details for this AC._`
       ].join("\n");
 
       const url = `https://wa.me/${BUSINESS_CONFIG.whatsappNumber}?text=${encodeURIComponent(msg)}`;
@@ -414,104 +367,7 @@ function initFreightCalculator() {
 }
 
 /**
- * 3. Interactive Bilty / Consignment Tracker Simulator
- */
-function initBiltyTracker() {
-  const biltyInput = document.getElementById("biltyInput");
-  const trackBtn = document.getElementById("btnTrackBilty");
-  const demoBtn = document.getElementById("btnTryDemoLR");
-  const resultPanel = document.getElementById("trackingResultPanel");
-
-  const resBiltyNo = document.getElementById("resBiltyNo");
-  const resRoute = document.getElementById("resRoute");
-  const resVehicle = document.getElementById("resVehicle");
-  const resStatus = document.getElementById("resStatus");
-
-  function trackLR(number) {
-    const cleanNo = number.trim().toUpperCase() || "KK-BAJAJ-101";
-    if (biltyInput) biltyInput.value = cleanNo;
-
-    if (resBiltyNo) resBiltyNo.textContent = cleanNo;
-
-    // Realistic delivery simulation from Bajaj Road Showroom
-    if (cleanNo.includes("PIPRALI") || cleanNo.endsWith("20")) {
-      if (resRoute) resRoute.textContent = "Hitachi Ganpati Tower, Bajaj Road ➔ Piprali Road Coaching Hub";
-      if (resVehicle) resVehicle.textContent = "RJ-23-GB-4192 (Express AC Delivery Van)";
-      if (resStatus) {
-        resStatus.textContent = "IN-TRANSIT (ON SCHEDULE - 15 MIN AWAY)";
-        resStatus.style.color = "#34d399";
-      }
-    } else if (cleanNo.includes("STATION") || cleanNo.endsWith("11")) {
-      if (resRoute) resRoute.textContent = "Hitachi Ganpati Tower, Bajaj Road ➔ Station Road & Taparia Bagechi";
-      if (resVehicle) resVehicle.textContent = "RJ-23-GA-1029 (Showroom Dispatch Loader)";
-      if (resStatus) {
-        resStatus.textContent = "OUT FOR DOORSTEP DELIVERY";
-        resStatus.style.color = "#38bdf8";
-      }
-    } else if (cleanNo.includes("NAWAL") || cleanNo.endsWith("55")) {
-      if (resRoute) resRoute.textContent = "Hitachi Ganpati Tower, Bajaj Road ➔ Nawalgarh Road Sikar";
-      if (resVehicle) resVehicle.textContent = "RJ-23-GB-8840 (Showroom Delivery Van)";
-      if (resStatus) {
-        resStatus.textContent = "DISPATCH CONFIRMED (LOADED)";
-        resStatus.style.color = "#ffffff";
-      }
-    } else {
-      if (resRoute) resRoute.textContent = "Hitachi Ganpati Tower, Bajaj Road ➔ Bajaj Road Market (Local Doorstep)";
-      if (resVehicle) resVehicle.textContent = "RJ-23-GC-5801 (Bajaj Road Express Loader)";
-      if (resStatus) {
-        resStatus.textContent = "OUT FOR SAME-DAY DELIVERY & INSTALLATION";
-        resStatus.style.color = "#34d399";
-      }
-    }
-
-    if (resultPanel) {
-      resultPanel.style.display = "block";
-      resultPanel.scrollIntoView({ behavior: "smooth", block: "nearest" });
-    }
-  }
-
-  if (trackBtn) {
-    trackBtn.addEventListener("click", () => {
-      const val = biltyInput ? biltyInput.value : "";
-      trackLR(val);
-    });
-  }
-
-  if (demoBtn) {
-    demoBtn.addEventListener("click", () => {
-      trackLR("KK-84920");
-    });
-  }
-
-  // Wire Hero Inline Quick Bilty Tracker
-  const heroBiltyInput = document.getElementById("heroBiltyInput");
-  const heroQuickTrackBtn = document.getElementById("heroQuickTrackBtn");
-  if (heroQuickTrackBtn) {
-    heroQuickTrackBtn.addEventListener("click", () => {
-      const val = heroBiltyInput && heroBiltyInput.value.trim() ? heroBiltyInput.value.trim() : "KK-84920";
-      const targetSec = document.getElementById("tracking");
-      if (targetSec) {
-        targetSec.scrollIntoView({ behavior: "smooth" });
-      }
-      setTimeout(() => {
-        trackLR(val);
-      }, 450);
-    });
-  }
-
-  if (heroBiltyInput) {
-    heroBiltyInput.addEventListener("keydown", (e) => {
-      if (e.key === "Enter") {
-        e.preventDefault();
-        if (heroQuickTrackBtn) heroQuickTrackBtn.click();
-      }
-    });
-  }
-}
-
-
-/**
- * 5. Mobile Drawer Menu Functionality
+ * 3. Mobile Drawer Menu Functionality
  */
 function initMobileMenu() {
   const mobileToggle = document.getElementById("mobileToggle");
@@ -534,7 +390,7 @@ function initMobileMenu() {
 }
 
 /**
- * 6. Sticky Header elevation on scroll
+ * 4. Sticky Header elevation on scroll
  */
 function initHeaderScrollEffect() {
   const header = document.getElementById("siteHeader");
@@ -550,43 +406,42 @@ function initHeaderScrollEffect() {
 }
 
 /**
- * 7. Freight Quote Form submission to WhatsApp
+ * 5. AC Showroom Quote Form submission to WhatsApp
  */
-function initFreightQuoteForm() {
+function initACQuoteForm() {
   const form = document.getElementById("freightQuoteForm");
   if (!form) return;
 
   form.addEventListener("submit", (e) => {
     e.preventDefault();
 
-    const pickupCity = document.getElementById("pickupCity")?.value.trim() || "Sikar";
-    const dropCity = document.getElementById("dropCity")?.value.trim() || "";
-    const loadType = document.getElementById("loadType")?.value || "Full Truck Load (FTL)";
-    const goodsType = document.getElementById("goodsType")?.value.trim() || "General Goods";
-    const weight = document.getElementById("weightQuantity")?.value.trim() || "As per requirement";
+    const dropCity = document.getElementById("dropCity")?.value.trim() || "Bajaj Road, Sikar";
+    const loadType = document.getElementById("loadType")?.value || "Hitachi 1.5 Ton 5-Star Split AC";
+    const goodsType = document.getElementById("goodsType")?.value.trim() || "Hitachi & Daikin";
+    const weight = document.getElementById("weightQuantity")?.value.trim() || "1 Unit";
     const customerPhone = document.getElementById("customerPhone")?.value.trim() || "";
     const customerName = document.getElementById("customerName")?.value.trim() || "";
     const notes = document.getElementById("additionalNotes")?.value.trim() || "None";
 
     if (!dropCity || !customerPhone || !customerName) {
-      alert("Please fill in Destination City, Your Name, and Mobile Number.");
+      alert("Please fill in your Delivery Locality, Name, and Mobile Number.");
       return;
     }
 
     const messageLines = [
-      `🚚 *NEW FREIGHT BOOKING REQUISITION*`,
-      `*K K Enterprises Roadlines, Sikar*`,
+      `❄️ *NEW AC PRICE & INSTALLATION INQUIRY*`,
+      `*K K Enterprises - Hitachi & Daikin AC Showroom*`,
+      `*Hitachi Ganpati Tower, Bajaj Road, Sikar*`,
       `━━━━━━━━━━━━━━━━━━━━━━`,
-      `👤 *Customer / Firm:* ${customerName}`,
+      `👤 *Customer Name:* ${customerName}`,
       `📱 *Contact No:* ${customerPhone}`,
-      `📍 *Pickup Location:* ${pickupCity}`,
-      `🎯 *Delivery Destination:* ${dropCity}`,
-      `🚛 *Booking Type:* ${loadType}`,
-      `📦 *Goods Description:* ${goodsType}`,
-      `⚖️ *Estimated Weight:* ${weight}`,
-      `📝 *Special Notes:* ${notes}`,
+      `📍 *Delivery Locality:* ${dropCity}`,
+      `❄️ *AC Model Required:* ${loadType}`,
+      `🏷️ *Brand Preference:* ${goodsType}`,
+      `📦 *Number of Units:* ${weight}`,
+      `📝 *Notes / Fitting:* ${notes}`,
       `━━━━━━━━━━━━━━━━━━━━━━`,
-      `_Inquiry sent from K K Enterprises portal_`
+      `_Inquiry sent from K K Enterprises Showroom website_`
     ];
 
     const fullMessage = messageLines.join("\n");
@@ -598,6 +453,18 @@ function initFreightQuoteForm() {
 
     if (submitBtn) {
       submitBtn.innerHTML = `<span>✓ Opening WhatsApp...</span>`;
+      submitBtn.style.opacity = "0.85";
+    }
+
+    setTimeout(() => {
+      window.open(whatsappUrl, "_blank", "noopener,noreferrer");
+      if (submitBtn) {
+        submitBtn.innerHTML = originalBtnHTML;
+        submitBtn.style.opacity = "1";
+      }
+    }, 400);
+  });
+}
       submitBtn.style.opacity = "0.85";
     }
 
