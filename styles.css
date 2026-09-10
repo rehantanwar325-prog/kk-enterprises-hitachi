@@ -3501,7 +3501,7 @@ img {
 /* Standard Mobile Devices (<= 768px) */
 @media (max-width: 768px) {
   body {
-    padding-bottom: 72px;
+    padding-bottom: 0;
   }
 
   /* Compact Header Bar for Mobile (Brand Left, Phone + Hamburger Right) */
@@ -3820,12 +3820,11 @@ img {
   }
 
   .mobile-floating-bar {
-    display: flex !important;
+    display: none !important;
   }
 
   .wa-smart-widget {
-    bottom: 80px;
-    right: 14px;
+    display: none !important;
   }
 
   .wa-assistant-card {

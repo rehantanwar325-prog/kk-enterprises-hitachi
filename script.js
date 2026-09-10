@@ -291,7 +291,6 @@ document.addEventListener("DOMContentLoaded", () => {
   initHeaderScrollEffect();
   initFreightCalculator();
   initBiltyTracker();
-  initSmartWhatsAppWidget();
   initFreightQuoteForm();
   initRouteTabs();
   initAddressCopy();
@@ -510,44 +509,6 @@ function initBiltyTracker() {
   }
 }
 
-/**
- * 4. Smart WhatsApp Expandable Assistant Widget with Quick Chips
- */
-function initSmartWhatsAppWidget() {
-  const trigger = document.getElementById("waFloatTrigger");
-  const card = document.getElementById("waAssistantCard");
-  const closeBtn = document.getElementById("btnCloseWaCard");
-  const chips = document.querySelectorAll(".wa-chip");
-
-  if (!trigger || !card) return;
-
-  trigger.addEventListener("click", () => {
-    card.classList.toggle("open");
-  });
-
-  if (closeBtn) {
-    closeBtn.addEventListener("click", () => {
-      card.classList.remove("open");
-    });
-  }
-
-  chips.forEach(chip => {
-    chip.addEventListener("click", () => {
-      const msg = chip.getAttribute("data-msg") || "Hello K K Enterprises, I need a freight quote.";
-      const url = `https://wa.me/${BUSINESS_CONFIG.whatsappNumber}?text=${encodeURIComponent(msg)}`;
-      window.open(url, "_blank", "noopener,noreferrer");
-      card.classList.remove("open");
-    });
-  });
-
-  // Close when clicking outside
-  document.addEventListener("click", (e) => {
-    const widget = document.getElementById("waSmartWidget");
-    if (widget && !widget.contains(e.target)) {
-      card.classList.remove("open");
-    }
-  });
-}
 
 /**
  * 5. Mobile Drawer Menu Functionality
