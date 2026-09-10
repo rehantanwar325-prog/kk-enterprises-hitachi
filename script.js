@@ -465,18 +465,7 @@ function initACQuoteForm() {
     }, 400);
   });
 }
-      submitBtn.style.opacity = "0.85";
-    }
 
-    setTimeout(() => {
-      window.open(whatsappUrl, "_blank", "noopener,noreferrer");
-      if (submitBtn) {
-        submitBtn.innerHTML = originalBtnHTML;
-        submitBtn.style.opacity = "1";
-      }
-    }, 400);
-  });
-}
 
 /**
  * 8. Route Matrix Tab Filter Switching
