@@ -1,9 +1,9 @@
-﻿# K K Enterprises - Hitachi & Daikin AC Showroom, Sikar
+# K K Enterprises - Authorized Hitachi AC Showroom, Sikar
 
-Official website for **K K Enterprises**, authorized dealer and showroom for **Hitachi & Daikin Air Conditioners** located at Hitachi Ganpati Tower, Bajaj Road, Sikar, Rajasthan (332001).
+Official website for **K K Enterprises**, authorized dealer and exclusive showroom for **Hitachi Air Conditioners** located at Hitachi Ganpati Tower, Bajaj Road, Sikar, Rajasthan (332001).
 
 ## 🌟 Highlights
-- **Hitachi & Daikin AC Showroom:** 12 official models with real store inventory photos, MRP, specs, and direct WhatsApp price inquiry.
+- **100% Authorized Hitachi AC Showroom:** 12 official Hitachi models with real store inventory photos, MRP, specs, and direct WhatsApp price inquiry.
 - **Sikar Bajaj Road Localized:** Doorstep delivery & expert installation within 15 to 30 minutes on Bajaj Road and Sikar City.
 - **Interactive Delivery Calculator:** Real-time distance and transit estimation from Ganpati Tower to Sikar localities.
 - **Order & Bilty Tracker:** Live delivery simulation and status tracking.

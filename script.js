@@ -1,6 +1,6 @@
 /**
  * ============================================================================
- * K K ENTERPRISES - HITACHI & DAIKIN AC SHOWROOM
+ * K K ENTERPRISES - AUTHORIZED HITACHI AC SHOWROOM
  * Hitachi Ganpati Tower, Bajaj Road, Sikar, Rajasthan
  * Authorized Air Conditioning Sales, Certified Installation & Service
  * ============================================================================
@@ -9,7 +9,7 @@
 // Central Business Configuration
 const BUSINESS_CONFIG = {
   name: "K K Enterprises",
-  tagline: "Hitachi & Daikin AC Showroom",
+  tagline: "Authorized Hitachi AC Showroom",
   phoneDisplay: "+91 98290 12345",
   phoneNumber: "+919829012345",
   whatsappNumber: "919829012345",
@@ -24,19 +24,19 @@ const I18N_DICT = {
     top_live_status: "SHOWROOM OPEN • BAJAJ ROAD",
     top_office_location: "Hitachi Ganpati Tower, Bajaj Road, Sikar",
     top_helpline: "Showroom Desk:",
-    header_tagline: "HITACHI & DAIKIN AC SHOWROOM • BAJAJ ROAD, SIKAR",
-    header_call_sub: "TALK TO SHOWROOM",
-    header_quote_btn: "Get AC Price Quote",
+    header_tagline: "AUTHORIZED HITACHI AC SHOWROOM • BAJAJ ROAD, SIKAR",
+    header_call_sub: "SHOWROOM CALL",
+    header_quote_btn: "Get AC Quote",
     nav_home: "Home",
-    nav_products: "AC Showroom",
-    nav_calc: "AC Tonnage Guide",
-    nav_services: "Our Services",
-    nav_why: "Why Choose Us",
-    nav_about: "About Us",
-    nav_contact: "Contact & Location",
-    hero_pill: "OFFICIAL HITACHI & DAIKIN SHOWROOM • BAJAJ ROAD, SIKAR",
-    hero_title: "Hitachi & Daikin ACs & <br><span class=\"highlight-text\">Express Delivery on Bajaj Road</span> & Sikar City",
-    hero_description: "<strong>K K Enterprises</strong> is Sikar's premier authorized showroom for <strong>Hitachi and Daikin Air Conditioners</strong>. Located at Hitachi Ganpati Tower, Bajaj Road, we offer 1.0, 1.5, and 2.0 Ton Inverter Split ACs, Window ACs, commercial cassette units, official company warranties, and certified doorstep installation across Sikar.",
+    nav_products: "Hitachi ACs",
+    nav_calc: "Tonnage Guide",
+    nav_services: "Services",
+    nav_why: "Why Us",
+    nav_about: "About",
+    nav_contact: "Contact",
+    hero_pill: "OFFICIAL HITACHI SHOWROOM • BAJAJ ROAD, SIKAR",
+    hero_title: "Hitachi Air Conditioners & <br><span class=\"highlight-text\">Express Delivery on Bajaj Road</span> & Sikar City",
+    hero_description: "<strong>K K Enterprises</strong> is Sikar's premier authorized showroom for <strong>Hitachi Air Conditioners</strong>. Located at Hitachi Ganpati Tower, Bajaj Road, we offer 1.0, 1.5, and 2.0 Ton Inverter Split ACs, Window ACs, commercial cassette units, official company warranties, and certified doorstep installation across Sikar.",
     hero_btn_calc: "Explore AC Models & Prices",
     hero_btn_call: "Call Showroom Desk",
     hero_trust_1: "100% Brand Warranty",
@@ -83,10 +83,10 @@ const I18N_DICT = {
     routes_title: "Express AC Delivery Across Sikar Localities",
     routes_subtitle: "Conveniently based at Hitachi Ganpati Tower on Bajaj Road, dispatching technician vans and delivery vehicles across Sikar City within minutes.",
     routes_custom_title: "Need AC delivery or corporate installation at another locality in Sikar?",
-    routes_custom_sub: "We supply and install Hitachi & Daikin air conditioners across all residential and commercial zones in Sikar.",
+    routes_custom_sub: "We supply and install Hitachi air conditioners across all residential and commercial zones in Sikar.",
     routes_custom_btn: "Ask Showroom Availability: +91 98290 12345",
     about_pill: "ABOUT OUR SHOWROOM",
-    about_title: "Sikar's Trusted Destination for Hitachi & Daikin ACs",
+    about_title: "Sikar's Trusted Destination for Hitachi ACs",
     about_lead: "Located centrally at <strong>Hitachi Ganpati Tower, Bajaj Road, Sikar</strong>, K K Enterprises is the leading authorized retail showroom for premium air conditioning systems in Shekhawati.",
     about_body: "We operate with a direct manufacturer-dealer commitment: 100% genuine factory-packed air conditioners, direct brand warranties, transparent dealer pricing with no hidden charges, and expert doorstep delivery and certified technician installation across Bajaj Road and Sikar City.",
     why_pill: "OUR PROMISES",
@@ -105,19 +105,19 @@ const I18N_DICT = {
     top_live_status: "शोरूम खुला है • बजाज रोड सीकर",
     top_office_location: "हिताची गणपति टॉवर, बजाज रोड, सीकर",
     top_helpline: "शोरूम डेस्क:",
-    header_tagline: "हिताची एवं डाइकिन एसी शोरूम • बजाज रोड, सीकर",
-    header_call_sub: "शोरूम से बात करें",
-    header_quote_btn: "एसी रेट कोटेशन लें",
+    header_tagline: "अधिकृत हिताची एसी शोरूम • बजाज रोड, सीकर",
+    header_call_sub: "शोरूम कॉल",
+    header_quote_btn: "एसी रेट कोट",
     nav_home: "होम",
-    nav_products: "एसी मॉडल्स",
-    nav_calc: "कमरे के अनुसार एसी",
-    nav_services: "हमारी सेवाएँ",
+    nav_products: "हिताची एसी",
+    nav_calc: "टन क्षमता गाइड",
+    nav_services: "सेवाएँ",
     nav_why: "हमें क्यों चुनें",
-    nav_about: "शोरूम के बारे में",
-    nav_contact: "संपर्क एवं पता",
-    hero_pill: "अधिकृत हिताची एवं डाइकिन एसी शोरूम • बजाज रोड, सीकर",
-    hero_title: "हिताची एवं डाइकिन एसी <br><span class=\"highlight-text\">बजाज रोड व सीकर में</span> एक्सप्रेस डिलीवरी व फिटिंग",
-    hero_description: "<strong>के के एंटरप्राइजेज</strong> हिताची एवं डाइकिन एसी का सीकर का अधिकृत शोरूम है। हिताची गणपति टॉवर, बजाज रोड पर स्थित, हमारे यहाँ 1.0, 1.5 व 2.0 टन इन्वर्टर स्प्लिट, विंडो एवं कैसेट एसी, कंपनी वारंटी और उसी दिन फिटिंग की सुविधा उपलब्ध है।",
+    nav_about: "शोरूम",
+    nav_contact: "संपर्क",
+    hero_pill: "अधिकृत हिताची एसी शोरूम • बजाज रोड, सीकर",
+    hero_title: "हिताची एयर कंडीशनर <br><span class=\"highlight-text\">बजाज रोड व सीकर में</span> एक्सप्रेस डिलीवरी व फिटिंग",
+    hero_description: "<strong>के के एंटरप्राइजेज</strong> हिताची एसी का सीकर का अधिकृत शोरूम है। हिताची गणपति टॉवर, बजाज रोड पर स्थित, हमारे यहाँ 1.0, 1.5 व 2.0 टन इन्वर्टर स्प्लिट, विंडो एवं कैसेट एसी, कंपनी वारंटी और उसी दिन फिटिंग की सुविधा उपलब्ध है।",
     hero_btn_calc: "एसी मॉडल्स व रेट देखें",
     hero_btn_call: "शोरूम पर कॉल करें",
     hero_trust_1: "100% ओरिजिनल कंपनी वारंटी",
@@ -139,7 +139,7 @@ const I18N_DICT = {
     calc_subtitle: "नीचे अपने कमरे का साइज चुनें। हमारा टूल आपके लिए सही टन (1.0, 1.5 या 2.0 टन) और बिजली बचत की गणना करेगा, जो गणपति टॉवर, बजाज रोड स्टोर पर उपलब्ध है।",
     calc_lbl_origin: "शोरूम स्टोर (बजाज रोड सीकर)",
     calc_lbl_dest: "कमरे का साइज / एरिया चुनें",
-    calc_lbl_truck: "एसी मॉडल व ब्रांड चुनें",
+    calc_lbl_truck: "एसी मॉडल चुनें",
     calc_lbl_dist: "कूलिंग क्षमता",
     calc_lbl_time: "बजाज रोड डिलीवरी",
     calc_lbl_matched: "चुना हुआ एसी मॉडल:",
@@ -150,7 +150,7 @@ const I18N_DICT = {
     quote_subtitle: "नीचे अपनी आवश्यकता भरें। तुरंत हमारे शोरूम सेल्स डेस्क को व्हाट्सएप पर संदेश जाएगा और आपको सबसे कम रेट मिलेगी।",
     form_drop: "सीकर में डिलीवरी का पता / इलाका",
     form_service: "एसी का प्रकार",
-    form_goods: "पसंदीदा ब्रांड",
+    form_goods: "मॉडल / सीरीज वरीयता",
     form_weight: "कितने एसी चाहिए (संख्या)",
     form_phone: "आपका मोबाइल नंबर",
     form_name: "आपका नाम",
@@ -164,10 +164,10 @@ const I18N_DICT = {
     routes_title: "सीकर के प्रमुख इलाकों में एक्सप्रेस एसी डिलीवरी",
     routes_subtitle: "बजाज रोड पर गणपति टॉवर से सीकर शहर के सभी इलाकों में कुछ ही मिनटों में एसी डिलीवरी व कुशल कारीगर।",
     routes_custom_title: "क्या सीकर में किसी अन्य कॉलोनी या संस्थान में एसी लगवाना है?",
-    routes_custom_sub: "हम सीकर के सभी इलाकों में हिताची व डाइकिन एसी की आपूर्ति और प्रमाणित फिटिंग प्रदान करते हैं।",
+    routes_custom_sub: "हम सीकर के सभी इलाकों में हिताची एसी की आपूर्ति और प्रमाणित फिटिंग प्रदान करते हैं।",
     routes_custom_btn: "शोरूम में पूछताछ करें: +91 98290 12345",
     about_pill: "शोरूम के बारे में",
-    about_title: "हिताची एवं डाइकिन एसी का सीकर में सबसे भरोसेमंद नाम",
+    about_title: "हिताची एसी का सीकर में सबसे भरोसेमंद शोरूम",
     about_lead: "<strong>हिताची गणपति टॉवर, बजाज रोड, सीकर</strong> में स्थित, के के एंटरप्राइजेज शेखावाटी का अग्रणी अधिकृत एसी शोरूम है।",
     about_body: "हम सीधे कंपनी डीलरशिप के साथ काम करते हैं: 100% ओरिजिनल फैक्ट्री पैक एसी, पक्की कंपनी वारंटी, सबसे कम डीलर रेट और बजाज रोड व सीकर शहर में उसी दिन कुशल तकनीशियन द्वारा फिटिंग।",
     why_pill: "हमारे वादे",
@@ -347,7 +347,7 @@ function initACCalculator() {
 
       const msg = [
         `❄️ *AC PRICE & SHOWROOM INQUIRY*`,
-        `*K K Enterprises - Hitachi & Daikin AC Showroom*`,
+        `*K K Enterprises - Authorized Hitachi AC Showroom*`,
         `*Hitachi Ganpati Tower, Bajaj Road, Sikar*`,
         `━━━━━━━━━━━━━━━━━━━━━━`,
         `🏠 *Room / Area:* ${roomOptionText}`,
@@ -417,7 +417,7 @@ function initACQuoteForm() {
 
     const dropCity = document.getElementById("dropCity")?.value.trim() || "Bajaj Road, Sikar";
     const loadType = document.getElementById("loadType")?.value || "Hitachi 1.5 Ton 5-Star Split AC";
-    const goodsType = document.getElementById("goodsType")?.value.trim() || "Hitachi & Daikin";
+    const goodsType = document.getElementById("goodsType")?.value.trim() || "Hitachi Inverter Split / Window AC";
     const weight = document.getElementById("weightQuantity")?.value.trim() || "1 Unit";
     const customerPhone = document.getElementById("customerPhone")?.value.trim() || "";
     const customerName = document.getElementById("customerName")?.value.trim() || "";
@@ -430,14 +430,14 @@ function initACQuoteForm() {
 
     const messageLines = [
       `❄️ *NEW AC PRICE & INSTALLATION INQUIRY*`,
-      `*K K Enterprises - Hitachi & Daikin AC Showroom*`,
+      `*K K Enterprises - Authorized Hitachi AC Showroom*`,
       `*Hitachi Ganpati Tower, Bajaj Road, Sikar*`,
       `━━━━━━━━━━━━━━━━━━━━━━`,
       `👤 *Customer Name:* ${customerName}`,
       `📱 *Contact No:* ${customerPhone}`,
       `📍 *Delivery Locality:* ${dropCity}`,
-      `❄️ *AC Model Required:* ${loadType}`,
-      `🏷️ *Brand Preference:* ${goodsType}`,
+      `❄️ *Hitachi AC Model:* ${loadType}`,
+      `🏷️ *Series / Preference:* ${goodsType}`,
       `📦 *Number of Units:* ${weight}`,
       `📝 *Notes / Fitting:* ${notes}`,
       `━━━━━━━━━━━━━━━━━━━━━━`,
@@ -902,7 +902,7 @@ function initCard3DTilt() {
 
 
 /* ==========================================================================
-   HITACHI & DAIKIN PRODUCT SHOWCASE FILTERING
+   HITACHI PRODUCT SHOWCASE FILTERING
    ========================================================================== */
 document.addEventListener('DOMContentLoaded', () => {
   const prodFilterBtns = document.querySelectorAll('.prod-filter-btn');
